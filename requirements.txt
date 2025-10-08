@@ -1,5 +1,20 @@
+# --- Frameworks utama ---
+flask
 streamlit
-Flask
-opencv-python-headless
+
+# --- Machine Learning & Deep Learning ---
 tensorflow
 keras
+
+# --- Pemrosesan gambar & video ---
+opencv-python-headless
+numpy
+pillow
+
+# --- Utilitas tambahan ---
+werkzeug
+requests
+
+# --- Untuk kompatibilitas sistem & debug ---
+protobuf
+h5py
