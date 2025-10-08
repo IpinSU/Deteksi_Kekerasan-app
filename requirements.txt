@@ -13,3 +13,4 @@ pillow==10.4.0
 protobuf==4.25.3
 
 pip install --upgrade pip
+pip --version
