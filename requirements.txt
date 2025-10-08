@@ -14,4 +14,4 @@ protobuf==4.25.3
 
 pip install --upgrade pip
 pip --version
-pip install pip
+pip install pip 25.2
