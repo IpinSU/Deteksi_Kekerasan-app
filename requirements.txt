@@ -4,3 +4,4 @@ opencv-python
 opencv-python-headless
 tensorflow
 keras
+pip install opencv-python-headless
