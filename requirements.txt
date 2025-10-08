@@ -1,20 +1,24 @@
 # --- Frameworks utama ---
-flask
-streamlit
+flask==3.0.3
+streamlit==1.38.0
 
 # --- Machine Learning & Deep Learning ---
-tensorflow
-keras
+tensorflow==2.17.0
+keras==3.4.1
 
-# --- Pemrosesan gambar & video ---
-opencv-python-headless
-numpy
-pillow
+# --- Pemrosesan gambar & video (tanpa GUI, aman untuk cloud) ---
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pillow==10.4.0
 
 # --- Utilitas tambahan ---
-werkzeug
-requests
+werkzeug==3.0.4
+requests==2.32.3
+protobuf==4.25.3
+h5py==3.11.0
 
-# --- Untuk kompatibilitas sistem & debug ---
-protobuf
-h5py
+# --- Tambahan umum (jika model menggunakan deque atau operasi OS) ---
+scipy==1.14.1
+
+# --- Pastikan versi Python minimal ---
+# Streamlit Cloud & Hugging Face umumnya memakai Python >=3.10
