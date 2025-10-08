@@ -1,6 +1,5 @@
 streamlit
 Flask
-opencv-python
 opencv-python-headless
 tensorflow
 keras
